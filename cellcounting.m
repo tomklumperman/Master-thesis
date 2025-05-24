@@ -4,11 +4,11 @@ clear; clc;
 %% General settings 
 
 % specify folder that contains the csv files with detected cells 
-path_root = 'X:\Tom\Master\Registrations cre staining\cell-counting_output-M24-03857-04';
+path_root = 'X:\path\to\QuPath-output\folder';
 keep = {'doubleCounts','areaList', 'doubleCells', 'csvFile','path_root','files','slice_count', 'Channel1', 'Channel2', 'Channel3','distance_thres','keep'};
 % Channels below should be in the order of the detection, so if AF488 is first detected, it should be Channel1
-Channel1 = 'Cy3'; % In the rest of the script, references to Channel1 might be called "AF488 cells", etc..
-Channel2 = 'Cy5';   % In the rest of the script, references to Channel1 might be called "Cy cells", etc..
+Channel1 = 'Cy3';    % In the rest of the script, references to Channel1 might be called "AF488 cells", etc..
+Channel2 = 'Cy5';    % In the rest of the script, references to Channel1 might be called "Cy cells", etc..
 Channel3= 'X';       % enter 'X' if no 3rd channel
 
 distance_thres = 8; % micrometers that cell middle points of different fluorescence need to be within for double classification
