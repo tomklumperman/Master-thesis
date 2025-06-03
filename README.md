@@ -2,6 +2,7 @@
 Scripts used for the data analysis-pipeline of my master thesis
 
 How to use the scripts and in which order to use them:  
+  
 First, register brain slices in ABBA and export the atlas annotations back onto the QuPath project.  
 1. In QuPath, run CellDetection-2Channels.groovy OR CellDetection-3Channels.groovy for the whole project. This depends on whether the dataset has 2 or 3 fluorophores on which double cell counting can be performed.  
    **SPECIFY**: In these scripts, specify the names of the fluorophores as they are called in QuPath. This can be checked under view -->       adjust brighness and contrast. Also specify the optimal detection parameters and the output path for the info about detected cells.
