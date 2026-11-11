@@ -1,5 +1,5 @@
 # Master-thesis
-Scripts used for the data analysis-pipeline of my master thesis
+Scripts used for the data analysis-pipeline of my Master's thesis
 
 How to use the scripts and in which order to use them:  
   
